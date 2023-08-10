@@ -18,6 +18,7 @@
 body{
     position: relative;
     background-color: green;
+    height: 160vh;
 }
 input{
     height: 40px;
@@ -26,9 +27,9 @@ input{
     transition: all 500ms;
     border-radius: 10px;
     
-    
-  
+   
 }
+
 .btn1{
     background-color: green;
     color: white;
@@ -39,4 +40,13 @@ input{
     width: 100px;
     border-radius: 10px;
     cursor: pointer;
+}
+.sect-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+.select{
+    width: 100px;
+    background-color: powderblue;
 }
